@@ -5,7 +5,7 @@
 ## Запуск и остановка:
 ### Запуск
 ```shell
-docker compose -p bitrixdock up -d
+docker compose -p bitrixdock up -d --build
 ```
 
 ### Остановка
