@@ -3,9 +3,9 @@
 /www/local/templates/main
 ```
 ## Запуск и остановка:
-### Запуск
+### Запуск (требуется подождать пару минут после запуска для инициализации базы с дампа)
 ```shell
-docker compose -p bitrixdock up -d --build
+docker compose -p bitrixdock up -d
 ```
 
 ### Остановка
