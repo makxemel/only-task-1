@@ -1,4 +1,9 @@
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+
+global $USER;
+
+$USER->Authorize(1);
+
 $APPLICATION->SetTitle(""); ?>
             <? $APPLICATION->IncludeComponent(
                 "bitrix:news.list",
@@ -69,10 +74,9 @@ $APPLICATION->SetTitle(""); ?>
                     "TEMPLATE_THEME" => "blue",
                     "USE_RATING" => "N",
                     "USE_SHARE" => "N",
-                    "COMPONENT_TEMPLATE" => ".default"
+                    "COMPONENT_TEMPLATE" => "mainpage_block"
                 ),
                 false
             ); ?>
         <br>
-    </div>
     <br><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
