@@ -57,7 +57,7 @@
   array (
     'value' => 
     array (
-      'crypto_key' => 'da78eb910133630b655b9efef96ee3d3',
+      'crypto_key' => 'd53cf229d04c6b0decd326a988b87cf7',
     ),
     'readonly' => true,
   ),
